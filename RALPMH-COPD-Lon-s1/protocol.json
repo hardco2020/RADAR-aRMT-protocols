@@ -1,5 +1,5 @@
 {
-  "version": "0.1.3",
+  "version": "0.1.4",
   "schemaVersion": "0.0.2",
   "name": "RALPMH COPD Project",
   "healthIssues": [
@@ -222,7 +222,7 @@
       "showIntroduction": "always",
       "showInCalendar": true,
       "isDemo": false,
-      "order": 3,
+      "order": 0,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "pulse_ox",
@@ -431,7 +431,7 @@
       "showIntroduction": false,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 3,
+      "order": 9,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "audio_without_unscripted_4",
@@ -473,12 +473,12 @@
         },
         "reminders": {
           "unit": "day",
-          "amount": 2,
-          "repeat": 1
+          "amount": 0,
+          "repeat": 0
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 3
+          "amount": 1
         }
       }
     },
@@ -487,7 +487,7 @@
       "showIntroduction": false,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 3,
+      "order": 9,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "audio_count",
@@ -529,12 +529,12 @@
         },
         "reminders": {
           "unit": "day",
-          "amount": 2,
-          "repeat": 1
+          "amount": 0,
+          "repeat": 0
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 3
+          "amount": 1
         }
       }
     },
@@ -543,7 +543,7 @@
       "showIntroduction": false,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 3,
+      "order": 9,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "audio_vocalisation",
@@ -585,12 +585,12 @@
         },
         "reminders": {
           "unit": "day",
-          "amount": 2,
-          "repeat": 1
+          "amount": 0,
+          "repeat": 0
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 3
+          "amount": 1
         }
       }
     },
@@ -599,7 +599,7 @@
       "showIntroduction": false,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 3,
+      "order": 1,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "exacerbation_diary",
