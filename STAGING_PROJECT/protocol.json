@@ -687,6 +687,15 @@
         "repeatProtocol": {
           "unit": "day",
           "amount": 3
+        },
+        "repeatQuestionnaire": {
+          "unit": "hour",
+          "unitsFromZero": [60]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
         }
       }
     },
