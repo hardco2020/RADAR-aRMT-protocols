@@ -41,7 +41,7 @@
           "de": "",
           "es": ""
         },
-        "estimatedCompletionTime": 2,
+        "estimatedCompletionTime": 1,
         "protocol": {
           "repeatProtocol": {
             "unit": "day",
@@ -50,22 +50,13 @@
           "repeatQuestionnaire": {
             "unit": "min",
             "unitsFromZero": [
-              1000
+              660
             ]
           },
           "reminders": {
             "unit": "day",
             "amount": 0,
             "repeat": 0
-          },
-          "clinicalProtocol": {
-            "requiresInClinicCompletion": true,
-            "repeatAfterClinicVisit": {
-              "unit": "min",
-              "unitsFromZero": [
-                4
-              ]
-            }
           }
         }
       },
