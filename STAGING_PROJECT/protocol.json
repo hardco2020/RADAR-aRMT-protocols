@@ -1026,8 +1026,8 @@
       }
     },
     {
-      "name": "Slide-test",
-      "showIntroduction": true,
+      "name": "SlIDE_TEST",
+      "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "sleep_quality",
