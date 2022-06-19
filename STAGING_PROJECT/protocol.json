@@ -1030,7 +1030,7 @@
       "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "sleeping_quality",
+        "name": "sleep_quality",
         "avsc": "questionnaire"
       },
       "startText": {
