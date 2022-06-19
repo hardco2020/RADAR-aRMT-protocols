@@ -971,7 +971,58 @@
             "repeat": 0
           }
         }
-      }
+      },
+      {
+        "name": "MORNING_ASSESSMENT",
+        "showIntroduction": true,
+        "questionnaire": {
+          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+          "name": "morning_assessment",
+          "avsc": "questionnaire"
+        },
+        "startText": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "endText": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "warn": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "estimatedCompletionTime": 3,
+        "protocol": {
+          "repeatProtocol": {
+            "unit": "day",
+            "amount": 1
+          },
+          "repeatQuestionnaire": {
+            "unit": "hour",
+            "unitsFromZero": [
+              11
+            ]
+          },
+          "reminders": {
+            "unit": "day",
+            "amount": 0,
+            "repeat": 0
+          }
+        }
+      },
     ]
   }
   
