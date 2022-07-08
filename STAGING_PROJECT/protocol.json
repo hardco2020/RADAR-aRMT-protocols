@@ -7,11 +7,11 @@
   ],
   "protocols": [
     {
-      "name": "RALPMH_COVID",
+      "name": "Health",
       "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/hardco2020/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "ralpmh_covid_symptoms",
+        "name": "health",
         "avsc": "questionnaire"
       },
       "startText": {
