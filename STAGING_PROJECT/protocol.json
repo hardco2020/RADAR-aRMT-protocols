@@ -7,57 +7,6 @@
   ],
   "protocols": [
     {
-      "name": "Health",
-      "showIntroduction": true,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/hardco2020/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "health",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 3,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 1
-        },
-        "repeatQuestionnaire": {
-          "unit": "hour",
-          "unitsFromZero": [
-            11
-          ]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
-        }
-      }
-    },
-    {
       "name": "Health_V2",
       "showIntroduction": true,
       "questionnaire": {
@@ -109,11 +58,62 @@
       }
     },
     {
-      "name": "Health_V3_Matrix_Group",
+      "name": "Health_V3",
       "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/hardco2020/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "health_v3",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "hour",
+          "unitsFromZero": [
+            11
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "name": "Health_V4_Matrix_Group",
+      "showIntroduction": true,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/hardco2020/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "health_v4",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -160,11 +160,11 @@
       }
     },
     {
-      "name": "Health",
+      "name": "Health_V5_Matrix_Group",
       "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/hardco2020/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "health",
+        "name": "health_v5",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -200,7 +200,7 @@
         "repeatQuestionnaire": {
           "unit": "hour",
           "unitsFromZero": [
-            11
+            9
           ]
         },
         "reminders": {
@@ -211,11 +211,11 @@
       }
     },
     {
-      "name": "Matrix_Example",
+      "name": "Health_V6_Matrix_Group",
       "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/hardco2020/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "ralpmh_covid_symptoms",
+        "name": "health_v6",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -251,211 +251,7 @@
         "repeatQuestionnaire": {
           "unit": "hour",
           "unitsFromZero": [
-            11
-          ]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
-        }
-      }
-    },
-    {
-      "name": "Matrix_Example_V2",
-      "showIntroduction": true,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/hardco2020/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "ralpmh_covid_symptoms",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 3,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 1
-        },
-        "repeatQuestionnaire": {
-          "unit": "hour",
-          "unitsFromZero": [
-            11
-          ]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
-        }
-      }
-    },
-    {
-      "name": "Example File",
-      "showIntroduction": true,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/hardco2020/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "cns_covid19_followup_v3",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 3,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 1
-        },
-        "repeatQuestionnaire": {
-          "unit": "hour",
-          "unitsFromZero": [
-            11
-          ]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
-        }
-      }
-    },
-    {
-      "name": "Example2 File",
-      "showIntroduction": true,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/hardco2020/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "blood_pressure_measurement",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 3,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 1
-        },
-        "repeatQuestionnaire": {
-          "unit": "hour",
-          "unitsFromZero": [
-            11
-          ]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
-        }
-      }
-    },
-    {
-      "name": "Example2 File",
-      "showIntroduction": true,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/hardco2020/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "cns_covid19_followup_v3",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 3,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 1
-        },
-        "repeatQuestionnaire": {
-          "unit": "hour",
-          "unitsFromZero": [
-            11
+            9
           ]
         },
         "reminders": {
